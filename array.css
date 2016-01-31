@@ -1,0 +1,74 @@
+body
+{
+	background-color: #EEF7FA;
+}
+
+@media (min-width: 500px){
+	.row{
+		display: flex;
+    	align-items: center;
+    	justify-content: center;
+	}
+	.column{
+		width: 40%;
+	}
+}
+
+.hover 
+{ 
+    background-color: #AAEEDD;
+}
+
+.selected-cell
+{
+	background-color: #0EAFA5 !important;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+#title
+{
+	text-align: center;
+	font-size: 30px; 
+	font-family: "Verdana", serif;
+	color: #6449B0;
+}
+
+
+#logo
+{
+	text-align: center;
+}
+
+#message_title
+{
+	text-align: center;
+	font-size: 40px;
+	font-family: "Verdana", serif;
+	color: #6449B0;
+	text-decoration: underline;
+}
+
+#message
+{
+    text-align: left;
+    font-size: 60px;
+    height: 480px;
+    font-family: "Verdana", serif;
+    color: #234567;
+    background-color: transparent;
+    border-style: none;
+}
+
+td 
+{
+    height: 80px;
+    width: 80px;
+	font-size: 50px;
+	text-align: center;
+	font-family: "Verdana", serif;
+	color: #000061;
+}
